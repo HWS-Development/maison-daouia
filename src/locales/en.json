@@ -1,0 +1,905 @@
+{
+  "nav": { "home": "Home", "rooms": "Rooms", "services": "Services", "dining": "Dining", "gallery": "Gallery", "about": "About", "contact": "Contact", "book": "Book", "activities": "Activities" },
+
+  "brand": {
+    "identity": {
+      "title": "Visual identity",
+      "paras": [
+        "The riad is defined by its color-named rooms. We want a website that feels colorful, lively and warm to reflect this unique atmosphere.",
+        "In contrast, the future patio will have a more minimal decor in ivory and natural tones, revealed when the rooms open. The site can hint at this visual surprise by blending both moods."
+      ]
+    },
+    "logo_note": "Logo: included as an attachment."
+  },
+
+  "hero": {
+    "subtitle": "A warm, authentic Berber guesthouse in Marrakech’s Medina",
+    "cta": "Availability & Prices"
+  },
+
+  "about": {
+    "title": "Ambience & History",
+    "lead": "Dar Tiflet is a true traditional Berber home, a century-old riad that has preserved the authenticity of its architecture and the soul of its past. Handmade zelliges, carved plaster, painted floors and walls—every detail reflects ancestral craftsmanship.",
+    "body": "Locally crafted furniture and rugs continue this living heritage. “Dar” means house in Arabic; “Tiflet” means door in Tamazight (Berber). Today the riad’s atmosphere is intimate and convivial: the patio invites rest, the Berber salon fosters exchange, and the sunny terrace overlooks the rooftops of the medina.",
+    "hospitality": "At Dar Tiflet, you are welcomed like friends."
+  },
+
+  "rooms": {
+    "title": "Rooms",
+    "legend": "Thick adobe walls ensure natural coolness.",
+    "book": "Book",
+    "view": "Show room",
+    "book_now": "Book now",
+    "beds": "Beds",
+    "bath": "Bathroom",
+    "size": "Size",
+    "ac": "Air conditioning",
+    "windows": "Windows",
+    "capacity": "Capacity",
+    "guests": "guests",
+    "amenities": "Amenities",
+    "floor": "Floor",
+    "ground_floor": "Ground floor",
+    "first_floor": "First floor",
+    "show_all": "See all rooms",
+
+    "intro": {
+      "title": "🛏️ Our Rooms",
+      "paras": [
+        "In the heart of the medina, Dar Tiflet offers a place where Berber authenticity, simplicity, and comfort come together for a soothing stay. Each room is a quiet pause, carefully decorated with respect for local traditions, and designed to keep natural coolness thanks to thick earthen walls."
+      ]
+    },
+    "home": [
+      {
+        "id": "green",
+        "name": "Chambre Verte",
+        "image": "/images/rooms/Green Room1.jpg"
+      },
+      {
+        "id": "red",
+        "name": "Chambre Rouge",
+        "image": "/images/rooms/Red Room1.jpg"
+      },
+      {
+        "id": "safi",
+        "name": "Suite Safi",
+        "image": "/images/rooms/Safi Suite1.jpg"
+      }
+    ],
+    "items": [
+      {
+        "id": "red",
+        "name": "Red Room",
+        "type": "Superior Triple",
+        "description": "Large upstairs room with warm tones, comfortably sleeping up to three guests.",
+        "capacity": 3,
+        "floor": "etage",
+        "beds": "Double bed + single bed or sofa bed",
+        "bath": "Private bathroom",
+        "size": "25 m²",
+        "ac": true,
+        "windows": "Window facing the inner house",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels", "Storage space"],
+        "color": "#B7322C",
+        "features": [
+          "Superior triple room on the first floor",
+          "Double bed + single bed or sofa bed",
+          "Private bathroom",
+          "25 m² with storage space",
+          "Air conditioning",
+          "Window facing the interior of the house"
+        ],
+        "images": [
+          "/images/rooms/Red Room1.jpg",
+          "/images/rooms/Red Room2.jpg",
+          "/images/rooms/Red Room3.jpg"
+        ]
+      },
+      {
+        "id": "bigarree",
+        "name": "Bigarrée Room",
+        "type": "Classic Triple",
+        "description": "Spacious and colorful, perfect for 2–3 guests, on the ground floor with a private bathroom.",
+        "capacity": 3,
+        "floor": "rdc",
+        "beds": "Double bed + single bed or sofa bed",
+        "bath": "Private bathroom",
+        "size": "22 m²",
+        "ac": true,
+        "windows": "Window facing the inner house",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels", "Storage space"],
+        "color": "#009FB2",
+        "features": [
+          "Classic triple room on the ground floor",
+          "Double bed + single bed or sofa bed",
+          "Private bathroom",
+          "22 m² with storage space",
+          "Air conditioning",
+          "Thick rammed-earth walls for natural coolness",
+          "Window facing the interior of the house"
+        ],
+        "images": [
+          "/images/rooms/Bigarree room1.jpg",
+          "/images/rooms/Bigarree room2.jpg",
+          "/images/rooms/Bigarree room3.jpg"
+        ]
+      },
+      {
+        "id": "zina",
+        "name": "Zina Room",
+        "type": "Superior Double",
+        "description": "Charming upstairs room overlooking the inner garden — intimate and comfortable.",
+        "capacity": 2,
+        "floor": "etage",
+        "beds": "Double bed",
+        "bath": "Private bathroom",
+        "size": "11 m²",
+        "ac": true,
+        "windows": "Window facing the inner garden",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels"],
+        "color": "#9C8874",
+        "features": [
+          "Superior double room on the first floor",
+          "Double bed",
+          "Private bathroom",
+          "11 m² with storage space",
+          "Air conditioning",
+          "Window overlooking the inner garden"
+        ],
+        "images": [
+          "/images/rooms/Zina Room1.jpg",
+          "/images/rooms/Zina Room2.jpg",
+          "/images/rooms/Zina Room3.jpg"
+        ]
+      },
+      {
+        "id": "green",
+        "name": "Green Room",
+        "type": "Classic Double",
+        "description": "A quiet ground-floor room, ideal for couples, with adobe walls that keep a naturally cool temperature.",
+        "capacity": 2,
+        "floor": "rdc",
+        "beds": "Double bed",
+        "bath": "Private bathroom",
+        "size": "12 m²",
+        "ac": true,
+        "windows": "Window facing the inner house",
+        "amenities": ["Wi-Fi", "Linens & towels", "Storage", "Air conditioning"],
+        "color": "#145C32",
+        "features": [
+          "Classic double room on the ground floor",
+          "Double bed",
+          "Private bathroom",
+          "12 m² with storage space",
+          "Air conditioning",
+          "Thick rammed-earth walls for natural coolness",
+          "Window facing the interior of the house"
+        ],
+        "images": [
+          "/images/rooms/Green Room1.jpg",
+          "/images/rooms/Green Room2.jpg",
+          "/images/rooms/Green Room3.jpg"
+        ]
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow Room",
+        "type": "Superior Twin",
+        "description": "Upstairs and bright, with two windows overlooking the courtyard. Can be set up as twin or as a double.",
+        "capacity": 2,
+        "floor": "etage",
+        "beds": "Two twin beds or double",
+        "bath": "Private bathroom",
+        "size": "14 m²",
+        "ac": true,
+        "windows": "Two windows facing the courtyard",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels"],
+        "color": "#FFD83D",
+        "features": [
+          "Superior twin room on the first floor",
+          "Two twin beds or one double bed",
+          "Private bathroom",
+          "14 m² with storage space",
+          "Air conditioning",
+          "Two windows overlooking the outer courtyard"
+        ],
+        "images": [
+          "/images/rooms/Yellow Room1.jpg",
+          "/images/rooms/Yellow Room2.jpg",
+          "/images/rooms/Yellow Room3.jpg"
+        ]
+      },
+      {
+        "id": "safi",
+        "name": "Safi Suite",
+        "type": "Classic Quadruple",
+        "description": "Two adjoining rooms on the ground floor — ideal for families or friends, up to 4 guests.",
+        "capacity": 4,
+        "floor": "rdc",
+        "beds": "Double bed + single beds/sofas across two rooms",
+        "bath": "Private bathroom",
+        "size": "25 m²",
+        "border": true,
+        "ac": true,
+        "windows": "Windows facing the inner garden",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels", "Storage space"],
+        "color": "#D6C4A8",
+        "features": [
+          "Classic quadruple room on the ground floor",
+          "Two adjoining rooms",
+          "Double bed + single beds or sofa beds",
+          "Private bathroom",
+          "25 m² with storage space",
+          "Air conditioning",
+          "Thick rammed-earth walls for natural coolness",
+          "Windows overlooking the inner garden"
+        ],
+        "images": [
+          "/images/rooms/Safi Suite1.jpg",
+          "/images/rooms/Safi Suite2.jpg",
+          "/images/rooms/Safi Suite3.jpg"
+        ]
+      },
+      {
+        "id": "baraka",
+        "name": "Baraka Room",
+        "type": "Twin",
+        "description": "Upstairs with two twin beds — simple and practical for friends or siblings.",
+        "capacity": 2,
+        "floor": "etage",
+        "beds": "Two twin beds",
+        "bath": "Private bathroom",
+        "size": "12 m²",
+        "ac": true,
+        "windows": "Window facing the inner garden",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels"],
+        "color": "#9C8874",
+        "features": [
+          "Twin room on the first floor",
+          "Two twin beds",
+          "Private bathroom",
+          "12 m² with storage space",
+          "Air conditioning",
+          "Window overlooking the inner garden"
+        ],
+        "images": [
+          "/images/rooms/Baraka room1.jpg",
+          "/images/rooms/Baraka room2.jpg",
+          "/images/rooms/Baraka room3.jpg"
+        ]
+      },
+      {
+        "id": "blue",
+        "name": "Blue Room",
+        "type": "Superior Double",
+        "description": "Upstairs, peaceful atmosphere — perfect for a stay for two.",
+        "capacity": 2,
+        "floor": "etage",
+        "beds": "Double bed",
+        "bath": "Private bathroom",
+        "size": "14 m²",
+        "ac": true,
+        "windows": "Window facing the inner house",
+        "amenities": ["Wi-Fi", "Air conditioning", "Linens & towels"],
+        "color": "#1E5A8A",
+        "features": [
+          "Superior double room on the first floor",
+          "Double bed",
+          "Private bathroom",
+          "14 m² with storage space",
+          "Air conditioning",
+          "Window facing the interior of the house"
+        ],
+        "images": [
+          "/images/rooms/Blue Room1.jpg",
+          "/images/rooms/Blue Room2.jpg",
+          "/images/rooms/Blue Room3.jpg"
+        ]
+      }
+    ]
+  },
+
+  "ui": { "close": "Close", "next": "Next", "prev": "Previous" },
+
+  "services": {
+    "title": "Services & Experiences",
+    "items": [
+      { "id": "shuttle", "name": "Airport / Train shuttle" },
+      { "id": "breakfast", "name": "Breakfast (included when booking direct)" },
+      { "id": "tips", "name": "City tips & excursion info" },
+      { "id": "luggage", "name": "Luggage racks & 1–2 bikes" }
+    ],
+    "activities": {
+      "title": "Activities",
+      "cta": "Ask us to arrange",
+      "items": [
+        {
+          "id": "marrakech-city-tour",
+          "title": "Marrakech City Tour",
+          "desc": "Our most complete tour of Marrakech for travelers who want to make the most of the Red City. Immerse yourself in the rich history and vibrant souks of Morocco’s most exciting imperial city.",
+          "img": "/images/medina.avif"
+        },
+        {
+          "id": "ourika-valley",
+          "title": "Ourika Valley Day Trip",
+          "desc": "Among the most beautiful natural regions near Marrakech. Discover the Ourika valley in the High Atlas foothills—fresh rivers, greenery and Berber villages. A peaceful escape into nature.",
+          "img": "/images/ourika.avif"
+        }
+      ]
+    },
+    "excursions_title": "Excursions & Day Trips",
+    "excursions_intro": "Curated outings with trusted partners. No prices shown here—just choose what you like and we’ll arrange the rest.",
+    "duration_label": "Duration",
+    "transport_included": "Transport included",
+    "arrange": "Ask us to arrange",
+    "show_details": "Show details",
+    "hide_details": "Hide details",
+    "open_link": "Contact us",
+
+    "excursions": {
+      "agafay": {
+        "title": "Agafay Desert — activities",
+        "desc": "A stony desert near Marrakech: open horizons, golden light, and an easy escape for half-day or sunset experiences.",
+        "options": [
+          "Quad or buggy ride",
+          "Camel ride",
+          "With or without meal on site (sunset option possible)"
+        ],
+        "duration": "Half-day or full day, depending on the option"
+      },
+      "ourika": {
+        "title": "A day in the Ourika Valley — hiking",
+        "desc": "Green valley at the foot of the High Atlas: small walkways, waterfalls in season, villages and orchards.",
+        "options": [
+          "Easy guided walk in the valley",
+          "Stops in villages and viewpoints",
+          "Lunch in a local restaurant (optional)"
+        ],
+        "duration": "Full day"
+      },
+      "atlas": {
+        "title": "Atlas foothills adventure",
+        "desc": "A scenic loop along the foothills: Berber villages, panoramic roads and fresh air—ideal for a first glimpse of the mountains.",
+        "options": [
+          "Photo stops and viewpoints",
+          "Short village strolls",
+          "Lunch stop possible (optional)"
+        ],
+        "duration": "Full day"
+      },
+      "puratlas": {
+        "title": "Pure Atlas — 1 day",
+        "desc": "A day focused on the High Atlas: more altitude, more nature, and time to breathe in the mountain rhythm.",
+        "options": [
+          "Immersive route through Atlas valleys",
+          "Village pauses and short walks",
+          "Lunch in a typical inn (optional)"
+        ],
+        "duration": "Full day"
+      }
+    },
+    "menu": {
+      "title": "See our table menu",
+      "desc": "Open the current menu as a PDF. We’ll show it in your language.",
+      "open_btn": "Open menu (PDF)",
+      "alt_link": "Direct link"
+    }
+  },
+
+  "contact": { 
+    "title": "Contact",
+    "whatsapp_hint_label": "WhatsApp invitation",
+    "whatsapp_hint_title": "Join us on WhatsApp",
+    "whatsapp_hint_body": "Quick questions or arrival help? Tap the green bubble.",
+    "whatsapp_cta": "Chat on WhatsApp" 
+  },
+  "whatsappPromo": {
+    "title": "Book direct with us",
+    "line1": "Best rates guaranteed",
+    "line2": "Traditional hammam & massage",
+    "line3": "2 pools & solariums",
+    "line4": "Perks for direct bookings"
+  },  
+  "policies": {
+    "title": "Policies",
+    "included": "Breakfast & city taxes included.",
+    "min_stay_direct": "Direct bookings & partner agencies: 1 night minimum.",
+    "min_stay_ota": "OTAs: 2 nights minimum.",
+    "agencies": "Partner agencies: –10% discount.",
+    "payments": "Secure online payment via Payzone (coming soon)."
+  },
+  "footer": {
+    "brand": "Dar Tiflet",
+    "tagline": "A traditional Berber house in the heart of the medina.",
+    "links_title": "Explore",
+    "links": [
+      { "label": "Home", "to": "/" },
+      { "label": "Rooms", "to": "/rooms" },
+      { "label": "Services", "to": "/services" },
+      { "label": "Activities", "to": "/activities" },
+      { "label": "Gallery", "to": "/gallery" },
+      { "label": "About", "to": "/about" },
+      { "label": "Contact", "to": "/contact" }
+    ],
+    "contact_title": "Contact",
+    "address_lines": ["Dar Tiflet", "14 derb Gnaoua, quartier Ben Saleh", "Marrakech, Morocco"],
+    "maps_url": "https://maps.google.com/?q=Dar%20Tiflet%2C%20Marrakech",
+    "phone_fr_display": "+33 756 84 8934",
+    "phone_fr_raw": "0033756848934",
+    "whatsapp_fr_link": "https://wa.me/33756848934",
+    "phone_ma_display": "+212 663 434 114",
+    "phone_ma_raw": "00212663434114",
+    "phone": "+33 756 84 8934",
+    "email": "hello@dartiflet.com",
+    "whatsapp_ma_link": "https://wa.me/212663434114",
+    "email_primary": "hello@dartiflet.com",
+    "instagram": "https://www.instagram.com/dar_tiflet/",
+    "facebook_fixed": "https://www.facebook.com/profile.php?id=100063690094935",
+    "ig_preview": [
+      "/images/ig/01.jpg",
+      "/images/ig/02.jpg",
+      "/images/ig/03.jpg",
+      "/images/ig/04.jpg",
+      "/images/ig/05.jpg",
+      "/images/ig/06.jpg"
+    ],
+    "copyright": "© {{year}} Dar Tiflet — Marrakech",
+    "made_with_love": "Made with love."
+  },
+
+  "location": {
+    "title": "Location",
+    "desc": "In the heart of Marrakech’s medina, in the Ben Salah area — a quiet lane with authentic neighborhood life.",
+    "address": "Ben Salah, Medina of Marrakech",
+    "tips_title": "Good to know",
+    "tips": [
+      "50 m from Ben Salah street & square",
+      "Car access not possible to the door (pedestrian zone)",
+      "We can arrange airport/train shuttle on request"
+    ],
+    "open_maps": "Open in Google Maps"
+  },
+
+  "reviews": {
+    "title": "Guest Reviews",
+    "items": [
+      { "name": "Alice M.", "country": "France", "date": "2025-07-22", "text": "Warm welcome and a genuine riad experience. Quiet at night, great breakfast, and lovely rooftop views of the Koutoubia." },
+      { "name": "Youssef B.", "country": "Morocco", "date": "2025-06-15", "text": "Perfect location in the medina. The team helped with tips and transfers. Rooms keep naturally cool, which was a big plus." },
+      { "name": "Sofia R.", "country": "Spain", "date": "2025-05-03", "text": "Authentic style with modern comfort. We loved the patio and the Berber salon. Felt like staying at a friend’s home." },
+      { "name": "Daniel P.", "country": "United Kingdom", "date": "2025-04-18", "text": "Clean, charming, and very friendly hosts. Breakfast on the terrace was a highlight." },
+      { "name": "Maya K.", "country": "USA", "date": "2025-03-29", "text": "Great value in the heart of the medina. Easy walk to Ben Salah and the souks." },
+      { "name": "Lena S.", "country": "Germany", "date": "2025-02-10", "text": "Peaceful, tasteful, and comfortable. We’ll be back!" }
+    ]
+  },
+  "common": { "close": "Close", "cancel": "Cancel" },
+  "services_page": {
+    "activity_title": "Excursions & Activities",
+    "title": "Services & Experiences",
+    "subtitle": "Comfort, guidance and local know-how — so you can enjoy Marrakech like a friend of the house.",
+    "intro": "We can arrange your arrival, breakfasts, tips and excursions, luggage storage and more. Ask us anything — we’re here to help.",
+    "items": [
+      {
+        "id": "shuttle",
+        "name": "Airport / Train Station Shuttle",
+        "tag": "Door-to-door",
+        "body": "We meet you at the exit with a sign, follow the taxi together to the riad and handle the last meters. No stress on arrival.",
+        "note": "Please share flight number and arrival time.",
+        "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1600&auto=format&fit=crop",
+        "cta": "Request transfer",
+        "href": "https://wa.me/"
+      },
+      {
+        "id": "breakfast",
+        "name": "Breakfast",
+        "tag": "Included for direct bookings",
+        "body": "Mixed European and Moroccan breakfast with pastries, pancakes and fruit. Allergies or vegetarian? Tell us and we’ll adapt.",
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1600&auto=format&fit=crop"
+      },
+      {
+        "id": "tips",
+        "name": "City Tips & Excursion Info",
+        "tag": "Tailor-made",
+        "body": "Personalized map, best times to visit, new restaurant ideas, gift shopping, trusted partners for day trips or desert treks.",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop"
+      },
+      {
+        "id": "luggage",
+        "name": "Luggage Storage",
+        "tag": "Free",
+        "body": "Between two stays or while you explore, we can keep your bulky luggage safe. We can also accommodate 1–2 bicycles.",
+        "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&w=1600&auto=format&fit=crop"
+      }
+    ]
+  },
+  "dining": {
+    "title": "The Table of Dar Tiflet",
+    "table_desc": "On the rooftop terrace, overlooking the medina and the Koutoubia’s minaret, we serve a simple, welcoming home-cooked table.",
+    "menu": "Daily set menu — seasonal tagines, couscous, pastilla, zaalouk, harira…",
+    "fresh": "Fresh bread baked on site, ripe fruit, Moroccan sweets",
+    "vegetarian": "Vegetarian and allergy-friendly options available on request",
+    "notice": "Meals are served by reservation only (minimum 6 hours in advance).",
+
+    "counter_title": "The Tiflet Counter — terrace refreshments",
+    "counter_desc": "Our alcohol-free bar serves fresh, local drinks to enjoy with a wide view over Marrakech.",
+    "bar_teas": "Mint tea and traditional Moroccan infusions",
+    "bar_juices": "Fresh orange juice, homemade lemonade, seasonal fruit juices",
+    "bar_soft": "Mineral water, soft drinks, coffee",
+    "bar_smoothies": "House smoothies made with market fruit",
+    "bar_note": "No alcohol is served — only the joy of natural flavors in a calm, intimate setting."
+  },
+  "dining_page": {
+    "title": "Dining",
+    "subtitle": "Home-cooked Berber & Moroccan cuisine on the rooftop.",
+    "intro": "On our panoramic terrace, we serve a simple, generous table in the spirit of the house. Expect seasonal tajines, couscous and salads — all homemade and served with care.",
+    "gallery_title": "Moments on the Terrace",
+    "menu": {
+      "title": "La Table de Dar Tiflet",
+      "highlights": [
+        "Homemade, daily menu inspired by Berber & Moroccan recipes",
+        "Fresh bread baked on site",
+        "Rooftop view toward the Koutoubia, magical at sunset",
+        "Vegetarian and allergy-friendly options on request"
+      ],
+      "sections": [
+        { "id": "starters", "title": "Starters & salads", "items": ["Zaalouk (eggplant dip)", "Taktouka (pepper & tomato)", "Seasonal salad", "Harira soup"] },
+        { "id": "mains", "title": "Main dishes", "items": ["Tagine of the day", "Couscous with seasonal vegetables", "Pastilla (on request)"] },
+        { "id": "sides", "title": "Bread & sides", "items": ["Bread baked on site", "Olives & olive oil", "Fresh fruit"] }
+      ]
+    },
+    "bar": {
+      "title": "Tiflet Counter — Non-alcoholic Bar",
+      "body": "Enjoy mint tea and traditional infusions, fresh juices and homemade lemonades, smoothies, mineral water, sodas and coffee — a quiet moment above the medina.",
+      "note": "No alcohol is served, in respect of the house and the medina.",
+      "categories": [
+        { "id": "teas", "title": "Teas & infusions", "items": ["Mint tea", "Verbena, sage, anise…"] },
+        { "id": "juices", "title": "Juices & lemonades", "items": ["Fresh orange juice", "Homemade lemonade", "Seasonal smoothies"] },
+        { "id": "soft", "title": "Water & soft drinks", "items": ["Still / sparkling mineral water", "Assorted sodas"] },
+        { "id": "coffee", "title": "Coffee", "items": ["Espresso", "Café allongé"] }
+      ]
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1514517220031-65fa8f1f0e4f?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1600&auto=format&fit=crop"
+    ]
+  },
+
+  "gallery_page": {
+    "title": "Gallery",
+    "subtitle": "A glimpse of the house, the rooftop and Marrakech life.",
+    "filters": {
+      "all": "All",
+      "categories": [
+        { "id": "rooms", "label": "Rooms" },
+        { "id": "terrace", "label": "Terrace" },
+        { "id": "details", "label": "Details" },
+        { "id": "dining", "label": "Dining" },
+        { "id": "neighborhood", "label": "Neighborhood" }
+      ]
+    },
+    "search_placeholder": "Search (e.g. terrace, tagine, blue room...)",
+    "results": "{{count}} photos",
+    "images": [
+      { "id": "g1", "src": "/images/rooms/Baraka room1.jpg", "alt": "Baraka room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g2", "src": "/images/rooms/Baraka room2.jpg", "alt": "Baraka room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g3", "src": "/images/rooms/Bigarree room1.jpg", "alt": "Bigarree room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g4", "src": "/images/rooms/Bigarree room2.jpg", "alt": "Bigarree room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g5", "src": "/images/rooms/Safi Suite1.jpg", "alt": "Safi room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g6", "src": "/images/rooms/Safi Suite2.jpg", "alt": "Safi room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g7", "src": "/images/rooftop.jpg", "alt": "Sunset on the terrace", "category": "terrace", "category_label": "Terrace" },
+      { "id": "g8", "src": "/images/rooftop2.jpg", "alt": "Sunset on the terrace", "category": "terrace", "category_label": "Terrace", "tags": ["sunset", "koutoubia"] },
+      { "id": "g9", "src": "/images/rooftop1.jpg", "alt": "Sunset on the terrace", "category": "terrace", "category_label": "Terrace", "tags": ["sunset", "koutoubia"] },
+      { "id": "g10", "src": "/images/riad-9.jpg", "alt": "Dining table on rooftop", "category": "dining", "category_label": "Dining", "tags": ["dinner", "table"] },
+      { "id": "g11", "src": "/images/interior.jpg", "alt": "Dining table on rooftop", "category": "dining", "category_label": "Dining", "tags": ["dinner", "table"] },
+      { "id": "g12", "src": "/images/riad-8.jpg", "alt": "Dining table on rooftop", "category": "dining", "category_label": "Dining", "tags": ["dinner", "table"] },
+      { "id": "g13", "src": "/images/details.jpg", "alt": "Zellige detail", "category": "details", "category_label": "Details", "tags": ["zellige", "craft"] },
+      { "id": "g14", "src": "/images/details1.jpg", "alt": "Zellige detail", "category": "details", "category_label": "Details", "tags": ["zellige", "craft"] },
+      { "id": "g15", "src": "/images/details2.jpg", "alt": "Zellige detail", "category": "details", "category_label": "Details", "tags": ["zellige", "craft"] },
+      { "id": "g16", "src": "/images/rooftop3.jpg", "alt": "Sunset on the terrace", "category": "terrace", "category_label": "Terrace", "tags": ["sunset", "koutoubia"] },
+      { "id": "g17", "src": "/images/details3.jpg", "alt": "Zellige detail", "category": "details", "category_label": "Details", "tags": ["zellige", "craft"] },
+      { "id": "g18", "src": "/images/rooms/Yellow Room1.jpg", "alt": "Yellow room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g19", "src": "/images/rooms/Yellow Room2.jpg", "alt": "Yellow room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g20", "src": "/images/rooms/Red Room1.jpg", "alt": "Red room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g21", "src": "/images/rooms/Red Room2.jpg", "alt": "Red room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g22", "src": "/images/dining.jpg", "alt": "Tea and pastries", "category": "dining", "category_label": "Dining", "tags": ["tea", "pastries"] },
+      { "id": "g23", "src": "/images/dining1.jpg", "alt": "Tea and pastries", "category": "dining", "category_label": "Dining", "tags": ["tea", "pastries"] },
+      { "id": "g24", "src": "/images/dining2.jpg", "alt": "Tea and pastries", "category": "dining", "category_label": "Dining", "tags": ["tea", "pastries"] },
+      { "id": "g25", "src": "/images/rooms/Blue Room1.jpg", "alt": "Blue room detail", "category": "rooms", "category_label": "Rooms"},
+      { "id": "g26", "src": "/images/rooms/Blue Room2.jpg", "alt": "Blue room detail", "category": "rooms", "category_label": "Rooms"}
+    ]
+  },
+
+  "about_page": {
+    "title": "About",
+    "subtitle": "A traditional Berber house with a living soul.",
+    "intro": "Dar Tiflet is a century-old riad rooted in the medina. We preserve its authentic architecture and a warm, simple way of hosting.",
+    "story": {
+      "title": "✨ Ambience & History",
+      "paragraphs": [
+        "Riad Dar Tiflet is a truly traditional Berber home, nestled in the vibrant heart of Marrakech’s medina. Once the family house of a Berber grocer, this century-old riad has preserved the authenticity of its architecture and the soul of its past.",
+        "Handmade zellij tiles, carved plaster, hand-decorated floors and walls… every detail bears witness to ancestral craftsmanship. Locally made furniture and rugs carry on this living heritage, faithful to the simple, warm aesthetics of Berber culture."
+      ],
+      "heritage_title": "The name Dar Tiflet",
+      "heritage": [
+        "The name Dar Tiflet is a nod to this dual identity:",
+        "“Dar” means house in Arabic,",
+        "“Tiflet” means door in Tamazight (Berber).",
+        "A direct tribute to its roots, and the idea of a place that is open, intimate, and deeply grounded."
+      ]
+    },
+    "highlights": [
+      { "id": "today-intro", "icon": "spark", "title": "Today", "body": "A bridge between past and present — every corner whispers a story. This is a lived-in space, not just a decorated one." },
+      { "id": "patio", "icon": "patio", "title": "Central patio", "body": "Invites rest." },
+      { "id": "salon", "icon": "salon", "title": "Berber lounge", "body": "Moments of exchange." },
+      { "id": "terrace", "icon": "rooftop", "title": "Sunny terrace", "body": "Overlooks medina rooftops — a space to share and unwind." }
+    ],
+    "invite": {
+      "paragraphs": [
+        "At Dar Tiflet, you are welcomed like friends. Berber hospitality shows in a mint tea, a sincere smile, and care for the smallest details.",
+        "Dar Tiflet is an invitation to experience Marrakech differently: at the pace of its people, at the heart of its traditions, and in a house where every stone tells a story."
+      ]
+    },
+    "team": {
+      "title": "The Team",
+      "members": [
+        { "id": "yassine", "photo": "/images/person1.jpg", "name": "Yassine", "bio": "Resident host and heart of Dar Tiflet. A guardian of Berber tradition who goes the extra mile for guests. Loves countryside souks — and reading your reviews." },
+        { "id": "mohamed", "photo": "/images/person2.jpg", "name": "Mohamed", "bio": "Discreet and attentive, with a special care for families. Always welcoming with a genuine, broad smile." },
+        { "id": "ibrahim", "photo": "/images/person5.jpg", "name": "Ibrahim", "bio": "From the Southern Atlas beyond the Dadès Valley. Loves sharing Tamazight culture and can write your name in Arabic and in Tifinagh — always with a huge smile." }
+      ]
+    },
+    "map": {
+      "title": "Where we are",
+      "body": "Ben Saleh quarter, a few minutes from the souks and the main sights. We’re happy to guide your arrival.",
+      "cta": "Open in Google Maps"
+    }
+  },
+  "ratings": {
+    "title": "Loved by Guests",
+    "subtitle": "Independent ratings & awards — proof that the charm is real.",
+    "badge": "Award",
+    "items": [
+      {
+        "id": "hotels",
+        "src": "/images/rating4.png",
+        "alt": "Hotels.com Loved by Guests 9.6/10",
+        "score": "9.6/10",
+        "label": "Hotels.com"
+      },
+      {
+        "id": "tripadvisor",
+        "src": "/images/rating1.jpeg",
+        "alt": "Tripadvisor Excellent 4.8/5",
+        "score": "4.8/5",
+        "label": "Tripadvisor"
+      },
+      {
+        "id": "booking",
+        "src": "/images/rating2.jpeg",
+        "alt": "Booking.com 9.4/10",
+        "score": "9.4/10",
+        "label": "Booking.com"
+      },
+      {
+        "id": "kayak",
+        "src": "/images/rating3.jpeg",
+        "alt": "Kayak Travel Awards Winner",
+        "score": "9.4/10",
+        "label": "Kayak Travel Awards"
+      }
+    ]
+  },
+
+  "contact_page": {
+    "title": "Contact",
+    "subtitle": "We’re happy to help — send a message and we’ll reply shortly.",
+    "intro": "Questions about arrival, rooms or the neighborhood? Write to us here or use WhatsApp for a quick reply.",
+    "cards": { "phone": "Call us", "email": "Email", "whatsapp": "WhatsApp", "address": "Address" },
+    "map_title": "Dar Tiflet on the map",
+    "form": {
+      "title": "Send us a message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "default_subject": "Inquiry from website",
+      "message": "Message",
+      "send_email": "Send via Email",
+      "send_whatsapp": "Send via WhatsApp",
+      "from": "From",
+      "note": "By using the buttons above your email/WhatsApp will open with your message prefilled (no account creation needed)."
+    }
+  },
+  "booking": {
+    "ariaForm": "Booking search form",
+    "titleShort": "Availability",
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "adults": "Adults",
+    "children": "Children",
+    "search": "Search",
+    "promo": {
+      "toggle": "promo code?",
+      "label": "Promo code",
+      "placeholder": "e.g. TIFLET10"
+    }   
+  },
+  "activities_page": {
+    "excursions": {
+      "kinds": {
+        "walk": "Balade",
+        "ride": "Balade",
+        "class": "Atelier",
+        "tour": "Excursion",
+        "flight": "Vol",
+        "spa": "SPA",
+        "desert": "Désert",
+        "city": "Ville",
+        "coast": "Côte",
+        "nature": "Nature"
+      },
+      "title": "Excursions & Activities",
+      "intro": "Open an experience to see the options and duration. No prices are shown.",
+      "transport_global_note": "Transport is included in all excursions.",
+      "duration_label": "Duration",
+      "cta": "View options",
+      "items": [
+        {
+          "id": "agafay",
+          "kind": "desert",
+          "title": "Agafay Desert Experiences",
+          "desc": "Discover the stony Agafay desert just outside Marrakech — golden light, open horizons, and unforgettable sunsets.",
+          "duration": "Half-day or full day",
+          "groups": [
+            { "label": "Quad",   "options": ["1h", "2h", "Sunset", "With meal", "Without meal"] },
+            { "label": "Buggy",  "options": ["1h", "2h", "Sunset", "With meal", "Without meal"] },
+            { "label": "Camel",  "options": ["30–45 min", "Sunset", "With meal", "Without meal"] }
+          ],
+          "photo": "/images/agafay.jpg"
+        },
+        {
+          "id": "ourika-walking",
+          "kind": "walk",
+          "title": "Ourika Valley — walking day",
+          "desc": "A refreshing day in the foothills of the Atlas: small Berber villages, riverbanks and waterfalls with a gentle guided walk.",
+          "options": ["Guided walking route", "4x4", "Village stops", "Waterfalls", "Lunch stop possible"],
+          "duration": "1 day",
+          "photo": "/images/ourika.jpg"
+        },
+        {
+          "id": "imlil-toubkal",
+          "kind": "walk",
+          "title": "Imlil — at the foot of Mount Toubkal",
+          "desc": "Drive up the Atlas to Imlil, gateway to Toubkal, with a short walk and tea in a Berber village.",
+          "options": ["Short guided walk", "Village tea stop", "Local lunch optional"],
+          "duration": "1 day",
+          "photo": "/images/imlil.jpg"
+        },
+        { "id": "lalla-takerkoust-kik",
+          "kind": "tour",
+          "title": "Lalla Takerkoust Lake & Kik Plateau",
+          "desc": "A scenic loop around the lake and the Kik plateau with sweeping views over the High Atlas.",
+          "options": ["Lakeside stop", "Kik plateau viewpoints", "Village stop", "Lunch stop possible"],
+          "duration": "1 day",
+          "photo": "/images/kik.jpg"
+        },
+        { "id": "marrakech-city",
+          "kind": "city",
+          "title": "Marrakech city tour",
+          "desc": "A curated discovery of the medina and key monuments with local tips and flexible pacing.",
+          "options": ["Medina walk", "Souks", "Selected monuments", "Garden / photo stops"],
+          "duration": "Half-day or full day",
+          "photo": "/images/marrakech.jpg"
+        },
+        { "id": "essaouira",
+          "kind": "coast",
+          "title": "Essaouira day trip",
+          "desc": "Atlantic breeze, ramparts and blue fishing port — a relaxed coastal day from Marrakech.",
+          "options": ["Medina & ramparts", "Port & fish market", "Argan cooperative stop"],
+          "duration": "1 day",
+          "photo": "/images/essaouira.jpg"
+        },
+        { "id": "cooking-class",
+          "kind": "class",
+          "title": "Couscous & Tajine cooking class",
+          "desc": "Hands-on class to learn the secrets of Moroccan tajines and couscous, followed by tasting on site.",
+          "options": ["Market or spice intro", "Tajine preparation", "Couscous workshop", "Tasting"],
+          "duration": "Half-day",
+          "photo": "/images/cooking.jpg"
+        },
+        { "id": "horseback-riding",
+          "kind": "ride",
+          "title": "Horseback riding",
+          "desc": "Gentle ride on quiet tracks around Marrakech with an experienced guide.",
+          "options": ["Intro & equipment", "Guided loop", "Photo stops"],
+          "duration": "1–2 hours",
+          "photo": "/images/horse.jpg"
+        },
+        { "id": "zagora-2d",
+          "kind": "desert",
+          "title": "Zagora desert — 2 days",
+          "desc": "Across the Draa valley to the dunes of Zagora with a night in a desert camp.",
+          "options": ["Draa valley road", "Camel ride", "Camp dinner & music", "Sunrise"],
+          "duration": "2 days / 1 night",
+          "photo": "/images/zagora.jpg"
+        },
+        { "id": "merzouga-3d",
+          "kind": "desert",
+          "title": "Merzouga desert — 3 days",
+          "desc": "Longer desert journey to the high dunes of Erg Chebbi with a camel ride and starry night in camp.",
+          "options": ["Road of a thousand kasbahs", "Camel ride", "Camp dinner & music", "Sunrise on dunes"],
+          "duration": "3 days / 2 nights",
+          "photo": "/images/merzouga.jpg"
+        },
+        {
+          "id": "ouzoud",
+          "kind": "nature",
+          "title": "Ouzoud Waterfalls",
+          "desc": "A refreshing escape to the Atlas foothills — discover Morocco’s tallest waterfalls, olive groves, and friendly Barbary macaques.",
+          "duration": "1 day",
+          "groups": [
+            { "label": "Options", "options": ["Walking tour", "Boat ride", "Lunch stop"] }
+          ],
+          "photo": "/images/ouzoud.jpg"
+        },
+        {
+          "id": "ouarzazate",
+          "kind": "tour",
+          "title": "Ouarzazate & Ait Ben Haddou",
+          "desc": "Cross the High Atlas via the Tizi n’Tichka pass and explore Ouarzazate, the ‘Gateway to the Desert’, and the UNESCO-listed ksar of Ait Ben Haddou.",
+          "duration": "1 day",
+          "groups": [
+            { "label": "Options", "options": ["Guided tour", "Cinema studios visit", "Lunch stop"] }
+          ],
+          "photo": "/images/ouarzazate.jpg"
+        },
+        {
+          "id": "balloon",
+          "kind": "flight",
+          "title": "Hot Air Balloon Flight",
+          "desc": "Soar gently above Marrakech and the Atlas mountains at sunrise for unforgettable panoramic views and a traditional breakfast.",
+          "duration": "Half-day (early morning)",
+          "groups": [
+            { "label": "Options", "options": ["Shared basket", "Private flight", "Breakfast included"] }
+          ],
+          "photo": "/images/balloon.jpg"
+        },
+        {
+          "id": "palmeraie",
+          "kind": "ride",
+          "title": "Palmeraie Experience",
+          "desc": "Ride camels or quads among thousands of palm trees on the outskirts of Marrakech — an iconic oasis just minutes away from the medina.",
+          "duration": "1–2 hours",
+          "groups": [
+            { "label": "Options", "options": ["Camel ride", "Quad bike", "Sunset tour"] }
+          ],
+          "photo": "/images/palmeraie.jpg"
+        },
+        {
+          "id": "poterie",
+          "kind": "class",
+          "title": "Pottery Workshop",
+          "desc": "Hands-on introduction to Moroccan pottery. Learn traditional techniques with a local artisan and shape your own clay creations.",
+          "duration": "Half-day",
+          "groups": [
+            { "label": "Options", "options": ["Beginner workshop", "Advanced techniques", "With tea break"] }
+          ],
+          "photo": "/images/poterie.jpg"
+        },
+        {
+          "id": "spa-hammam",
+          "kind": "spa",
+          "title": "SPA Hammam Experience",
+          "desc": "Relax and rejuvenate with a traditional Moroccan hammam. Enjoy steam, black soap scrub, and soothing argan oil massage for complete well-being.",
+          "duration": "1–2 hours",
+          "groups": [
+            { "label": "Options", "options": ["Traditional hammam", "Black soap & kessa scrub", "Argan oil massage", "Herbal tea after treatment"] }
+          ],
+          "photo": "/images/hammam.jpg"
+        }
+
+      ]
+    }
+  }
+}
