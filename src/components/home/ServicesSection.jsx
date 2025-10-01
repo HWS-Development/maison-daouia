@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next"
 
 const CARDS = [
-  { k: "food", img: "/images/service-food.avif", btn: "button" },
-  { k: "bar",  img: "/images/service-bar.avif",  btn: "button" },
-  { k: "spa",  img: "/images/service-spa.avif",  btn: "button" },
-  { k: "yoga", img: "/images/service-yoga.avif", btn: "button" }
+  { k: "food", img: "/images/service-food.avif", btn: "button", link: 'https://drive.google.com/file/d/1chLcCcJmIT21C3EclQbB-Ntp2t0eIrZV/preview' },
+  { k: "bar",  img: "/images/service-bar.avif",  btn: "button", link: 'https://drive.google.com/file/d/1-cJYGXvHtP_CKBlP9mLo9VMHx1WUNKPb/preview' },
+  { k: "spa",  img: "/images/service-spa.avif",  btn: "button", link: 'https://drive.google.com/file/d/1XGZFOzivvaFIAgY7cozTEyQaZaVrmu6s/preview' },
+  { k: "yoga", img: "/images/service-yoga.avif", btn: "button", link: '/contact' }
 ]
 
 export default function ServicesSection() {
@@ -21,7 +21,7 @@ export default function ServicesSection() {
         </p>
 
         <div className="mt-10 grid gap-x-10 gap-y-20 md:grid-cols-2">
-          {CARDS.map(({ k, img, btn }) => (
+          {CARDS.map(({ k, img, btn, link }) => (
             <article key={k} className="relative">
               {/* photo */}
               <img
@@ -39,8 +39,9 @@ export default function ServicesSection() {
                 </p>
                 <div className="mt-3 flex w-full justify-center">
                   <a
-                    href="#"
+                    href={link}
                     className="btn"
+                    target={link.startsWith('http') ? "_blank" : undefined}
                   >
                     {t(`services.${k}.${btn}`)}
                   </a>
