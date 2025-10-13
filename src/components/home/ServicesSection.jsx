@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next"
 
 const CARDS = [
   { k: "food", img: "/images/service-food.avif", btn: "button", link: 'https://drive.google.com/file/d/1chLcCcJmIT21C3EclQbB-Ntp2t0eIrZV/preview' },
-  { k: "bar",  img: "/images/service-bar.avif",  btn: "button", link: 'https://drive.google.com/file/d/1-cJYGXvHtP_CKBlP9mLo9VMHx1WUNKPb/preview' },
+  { k: "bar",  img: "/images/service-bar.jpeg",  btn: "button", link: 'https://drive.google.com/file/d/1-cJYGXvHtP_CKBlP9mLo9VMHx1WUNKPb/preview' },
   { k: "spa",  img: "/images/service-spa.avif",  btn: "button", link: 'https://drive.google.com/file/d/1XGZFOzivvaFIAgY7cozTEyQaZaVrmu6s/preview' },
   { k: "yoga", img: "/images/service-yoga.avif", btn: "button", link: '/contact' }
 ]
@@ -27,7 +27,7 @@ export default function ServicesSection() {
               <img
                 src={img}
                 alt=""
-                className="h-[260px] w-full object-cover shadow"
+                className="h-[300px] w-full object-cover shadow"
               />
 
               {/* white overlay card sitting on the image bottom (like reference) */}
