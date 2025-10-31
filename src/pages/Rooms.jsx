@@ -1,10 +1,27 @@
 import { useTranslation } from "react-i18next"
 import { rooms } from "../data/rooms"
 import CustomHero from "../components/layout/CustomHero"
+import { useEffect, useState } from "react";
+
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768); // md = 768px
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 767px)");
+
+    const handleChange = (event) => setIsMobile(event.matches);
+
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
+
+  return isMobile;
+}
 
 function RoomBlock({ slug, images, flip = false }) {
   const { t } = useTranslation()
   const base = `roomsPage.items.${slug}`
+  const isMobile = useIsMobile();
 
   const Text = (
     <div className="space-y-4">
@@ -37,24 +54,24 @@ function RoomBlock({ slug, images, flip = false }) {
   )
 
   return (
-    <section className="py-10 mx-40">
+    <section className="py-10 md:mx-40">
       <div className="mx-auto w-full max-w-6xl px-4 grid items-center gap-8 md:grid-cols-5">
-        {flip ? (
+        {(flip && !isMobile) ? (
           <>
-            <div className="md:col-span-2  pl-10">
+            <div className="md:col-span-2  md:pl-10">
               {Gallery}
             </div>
-            <div className="md:col-span-3  pl-8">
+            <div className="md:col-span-3  md:pl-8">
               {Text}
 
             </div>
           </>
         ) : (
           <>
-            <div className="md:col-span-3  pr-8">
+            <div className="md:col-span-3  md:pr-8">
               {Text}
             </div>
-            <div className="md:col-span-2  pr-10">
+            <div className="md:col-span-2  md:pr-10">
               {Gallery}
             </div>
           </>
@@ -69,7 +86,7 @@ export default function Rooms() {
   return (
     <>
       <CustomHero bgImage='rooms-hero-daouia-YBgb0K0vgLSvKpZe.avif' title={t('roomsPage.title')} subtitle={t('roomsPage.subtitle')} />
-      <div className="bg-[#f5f1e6] px-32">
+      <div className="bg-[#f5f1e6] md:px-32">
         {/* Your hero goes above this page content */}
         {rooms.map((r, idx) => (
           <RoomBlock key={r.slug} slug={r.slug} images={r.images} flip={idx % 2 === 1} />
