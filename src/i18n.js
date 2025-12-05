@@ -22,6 +22,10 @@ i18n
 // keep <html lang=""> in sync
 i18n.on('languageChanged', (lng) => {
   if (typeof document !== 'undefined') document.documentElement.lang = lng;
+
+  
+  // 🔥 THIS IS WHAT MAKES THE BADGE UPDATE LIVE
+  window.dispatchEvent(new Event("languageChanged"));
 });
 
 export default i18n;
