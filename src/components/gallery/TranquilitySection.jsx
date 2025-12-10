@@ -7,9 +7,10 @@ export default function TranquilitySection() {
     <section className="bg-[#f5f1e6]">
       <div className="mx-auto w-full max-w-6xl px-6 md:px-4 py-12 md:py-16">
         {/* Title */}
-        <h2 className="title">
-          {t("galleryTranquility.title")}
-        </h2>
+        <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#334d2b] mb-10">
+  {t("galleryTranquility.title")}
+</h2>
+
 
         {/* Two-column copy */}
         <div className="mt-8 grid gap-10 md:grid-cols-2">

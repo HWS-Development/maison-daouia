@@ -6,8 +6,9 @@ export default function Navbar() {
   const { t, i18n } = useTranslation()
   const [open, setOpen] = useState(false)
 
-  const linkBase = "px-2 py-1 text-sm tracking-wide transition hover:opacity-90"
-  const linkActive = "underline underline-offset-4"
+const linkBase =
+  "px-3 py-2 text-[19px] font-medium tracking-[0.5px] transition-all hover:opacity-85";
+  const linkActive = "underline underline-offset-8"
 
   function LangPill({ className = "" }) {
     const { i18n } = useTranslation()
@@ -50,28 +51,32 @@ export default function Navbar() {
   return (
     // Transparent overlay over hero; NOT sticky on scroll
     <header className="absolute inset-x-0 top-0 z-50 bg-transparent">
-      <div className="mx-auto w-full max-w-6xl px-4">
-        <div className="flex h-28 items-center justify-between">
+     <div className="w-full px-6">
+<div className="flex w-full items-center justify-between">
+
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img
-              src="/images/logo_white_transparent-YanJ4l86raHEGQwp.webp"
-              alt="Maison Daouia"
-              className="h-28 w-auto"
-            />
+           <img
+  src="/images/logo_white_transparent-YanJ4l86raHEGQwp.webp"
+  alt="Maison Daouia"
+  className="h-36 w-auto md:h-40 lg:h-44 transition-all duration-300"
+/>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-3 text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
-            <NavLink to="/" className={({isActive}) => `font- text-[16px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.home")}</NavLink>
-            <NavLink to="/rooms" className={({isActive}) => `font- text-[16px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.rooms")}</NavLink>
-            <NavLink to="/services" className={({isActive}) => `font- text-[16px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.services")}</NavLink>
-            <NavLink to="/gallery" className={({isActive}) => `font- text-[16px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.gallery")}</NavLink>
-            <NavLink to="/contact" className={({isActive}) => `font- text-[16px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.contact")}</NavLink>
-            <div className="ml-2 flex items-center gap-2">
-              <LangPill />
-            </div>
-          </nav>
+       {/* CENTER — LINKS */}
+  <nav className="hidden md:flex items-center gap-8 text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
+    <NavLink to="/" className={({isActive}) => `text-[17px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.home")}</NavLink>
+    <NavLink to="/rooms" className={({isActive}) => `text-[17px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.rooms")}</NavLink>
+    <NavLink to="/services" className={({isActive}) => `text-[17px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.services")}</NavLink>
+    <NavLink to="/gallery" className={({isActive}) => `text-[17px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.gallery")}</NavLink>
+    <NavLink to="/contact" className={({isActive}) => `text-[17px] ${linkBase} ${isActive ? linkActive : ""}`}>{t("nav.contact")}</NavLink>
+  </nav>
+
+        <div className="hidden md:flex items-center">
+    <LangPill />
+  </div>
+    
 
           {/* Mobile toggle */}
           <button

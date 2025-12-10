@@ -14,9 +14,11 @@ function ServiceCard({ img, title, desc, btnLabel, btnHref = "#" }) {
         <h3 className="text-2xl font-semibold text-[#2e3a23]">{title}</h3>
         <p className="mt-1 text-[14px] leading-0 text-black/50">{desc}</p>
         <a
-          href={btnHref}
-          className="btn !text-sm !py-2"
-        >
+  href={btnHref}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block bg-[#879b61] text-white px-5 py-2 rounded hover:opacity-90 transition"
+>
           {btnLabel}
         </a>
       </div>
@@ -56,14 +58,14 @@ export default function Services() {
             title={t("servicesPage.hammam.title")}
             desc={t("servicesPage.hammam.desc")}
             btnLabel={t("servicesPage.hammam.button")}
-            btnHref="#spa-menu"
+            btnHref="https://drive.google.com/file/d/1XGZFOzivvaFIAgY7cozTEyQaZaVrmu6s/preview"
           />
           <ServiceCard
             img="/images/food.avif"
             title={t("servicesPage.food.title")}
             desc={t("servicesPage.food.desc")}
             btnLabel={t("servicesPage.food.button")}
-            btnHref="#restaurant-menu"
+            btnHref="https://drive.google.com/file/d/1chLcCcJmIT21C3EclQbB-Ntp2t0eIrZV/preview"
           />
         </div>
         <div className="mt-16 flex flex-col md:flex-row md:justify-between gap-14">
@@ -72,14 +74,14 @@ export default function Services() {
             title={t("servicesPage.Conciergerie.title")}
             desc={t("servicesPage.Conciergerie.desc")}
             btnLabel={t("servicesPage.Conciergerie.button")}
-            btnHref="#spa-menu"
+           btnHref="/contact"
           />
           <ServiceCard
             img="/images/pool.avif"
             title={t("servicesPage.pool.title")}
             desc={t("servicesPage.pool.desc")}
             btnLabel={t("servicesPage.pool.button")}
-            btnHref="#restaurant-menu"
+           btnHref="/contact"
           />
         </div>
       </div>

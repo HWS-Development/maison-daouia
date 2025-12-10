@@ -1,8 +1,8 @@
 {
   "nav":{"home":"Accueil","rooms":"Chambres","services":"Services","gallery":"Galerie","contact":"Contact"},
   "hero":{
-    "title":"Vivez la quiétude à la Maison Daouia maison d'hôtes 4 étoiles",
-    "subtitle":"Découvrez le charme et le confort marocains dans un riad paisible au cœur de Marrakech",
+    "title":"Vivez la quiétude à la Maison Daouia maison ",
+    "subtitle":"Découvrez le charme et le confort marocain dans un riad paisible au cœur de Marrakech d'hôtes 4 étoiles",
     "book":"Réserver"
   },
   "about":{
@@ -20,7 +20,6 @@
   },
   "testimonials":{"title":"Avis de nos clients","subtitle":"Découvrez ce que nos clients pensent de nos services"},
   "location":{"title":"Notre Localisation","desc":"Découvrez la sérénité de la Maison Daouia, une maison d’hôtes paisible près de Marrakech, alliant charme marocain et confort dans un cadre champêtre."},
-  "footer":{"about":"Découvrez la quiétude dans notre havre de charme marocain.","contact":"Contact","rights":"Tous droits réservés.","madeby":"développé par"},
   "roomsPage": {
     "title": "Chambres & Suites",
     "subtitle": "Choisissez l’espace qui correspond à votre séjour",
@@ -194,5 +193,22 @@
       "title": "Litiges et droit applicable:",
       "p1": "Les présentes conditions sont régies par le droit marocain. En cas de litige, seul le tribunal de Marrakech sera compétent."
     }
+    
+
+
+  },
+  "footer": {
+    "escape_title": "Évasion",
+    "escape_text": "Découvrez la tranquillité dans notre havre de charme marocain.",
+    "contact_title": "Contact",
+    "phone": "+212666915557",
+    "email": "contact@maisondaouia.com",
+    "explore_title": "Explorer",
+    "book_button": "RÉSERVER",
+    "terms": "Conditions générales",
+    "rights": "Tous droits réservés",
+    "made_by": "Développé par "
   }
+  
 }
+

@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/45" />
 
       {/* LEFT-ALIGNED COPY with big spacing */}
-      <div className="relative pt-36 z-10 mx-auto w-full max-w-6xl px-4 pb-14">
+      <div className="relative pt-60 z-10 mx-auto w-full max-w-6xl px-4 pb-14">
         <div className="max-w-2xl">
           <h1 className="text-white leading-tight font-semibold text-[36px] md:text-[66px]">
             {t("hero.title")}

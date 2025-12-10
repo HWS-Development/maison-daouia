@@ -1,8 +1,8 @@
 {
   "nav":{"home":"Home","rooms":"Rooms","services":"Services","gallery":"Gallery","contact":"Contact"},
   "hero":{
-    "title":"Experience tranquility at Maison Daouia 4 star guesthouse",
-    "subtitle":"Discover the charm and Moroccan comfort in a peaceful riad in the heart of Marrakech",
+    "title":"Experience tranquility at Maison Daouia ",
+    "subtitle":"Discover the charm and Moroccan comfort in a peaceful riad in the heart of Marrakech 4 star guesthouse",
     "book":"Book Now"
   },
   "about":{
@@ -20,7 +20,6 @@
   },
   "testimonials":{"title":"Our Guests’ Reviews","subtitle":"Discover what our guests think of our services"},
   "location":{"title":"Our Location","desc":"Find serenity at Maison Daouia, a peaceful guesthouse near Marrakech combining Moroccan charm and comfort in a countryside setting."},
-  "footer":{"about":"Discover tranquility in our charming Moroccan hideaway.","contact":"Contact","rights":"All rights reserved.","madeby":"Developed by"},
   "roomsPage": {
     "title": "Rooms & Suites",
     "subtitle": "Choose the space that fits your stay.",
@@ -194,5 +193,25 @@
       "title": "Disputes and governing law:",
       "p1": "These terms are governed by Moroccan law. In the event of a dispute, the courts of Marrakech shall have sole jurisdiction."
     }
+
+    
+  
+},
+
+  "footer": {
+    "escape_title": "Escape",
+    "escape_text": "Discover tranquility in our Moroccan charm retreat.",
+    "contact_title": "Contact",
+    "phone": "+212666915557",
+    "email": "contact@maisondaouia.com",
+    "explore_title": "Explore",
+    "book_button": "BOOK NOW",
+    "terms": "General Terms",
+    "rights": "All rights reserved",
+    "made_by": "Developed by "
   }
-}
+
+
+
+
+  }
