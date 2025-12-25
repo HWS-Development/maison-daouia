@@ -3,10 +3,10 @@ export const rooms = [
   {
     slug: "deluxe-terre",
     images: [
-      "/images/rooms/deluxe1.avif",
-      "/images/rooms/deluxe2.avif",
-      "/images/rooms/deluxe3.avif",
-      "/images/rooms/deluxe4.avif"
+      "/images/rooms/Screenshot 2025-12-25 124050.png",
+      "/images/rooms/Screenshot 2025-12-25 124104.png",
+      "/images/rooms/Screenshot 2025-12-25 124116.png",
+      "/images/rooms/Screenshot 2025-12-25 124135.png"
     ],
   },
   {
@@ -21,19 +21,19 @@ export const rooms = [
   {
     slug: "premium-lavande",
     images: [
-      "/images/rooms/lavande1.avif",
-      "/images/rooms/lavande2.avif",
-      "/images/rooms/lavande3.avif",
-      "/images/rooms/lavande4.avif"
+      "/images/rooms/Screenshot 2025-12-25 125104.png",
+      "/images/rooms/Screenshot 2025-12-25 125114.png",
+      "/images/rooms/Screenshot 2025-12-25 125125.png",
+      "/images/rooms/Screenshot 2025-12-25 125151.png"
     ],
   },
   {
     slug: "premium-foret",
     images: [
-      "/images/rooms/foret1.avif",
-      "/images/rooms/foret2.avif",
-      "/images/rooms/foret3.avif",
-      "/images/rooms/foret4.avif"
+    "/images/rooms/Screenshot 2025-12-25 124542.png",
+      "/images/rooms/Screenshot 2025-12-25 124555.png",
+      "/images/rooms/Screenshot 2025-12-25 124622.png",
+      "/images/rooms/Screenshot 2025-12-25 124636.png"
     ],
   },
   {
@@ -48,19 +48,19 @@ export const rooms = [
   {
     slug: "suite-nomade-champs",
     images: [
-      "/images/rooms/chams1.avif",
-      "/images/rooms/chams2.avif",
-      "/images/rooms/chams3.avif",
-      "/images/rooms/chams4.avif"
+      "/images/rooms/Screenshot 2025-12-25 125709.png",
+      "/images/rooms/Screenshot 2025-12-25 125727.png",
+      "/images/rooms/Screenshot 2025-12-25 125742.png",
+      "/images/rooms/Screenshot 2025-12-25 125755.png"
     ],
   },
   {
     slug: "suite-nomade-fruits",
     images: [
-      "/images/rooms/fruit1.avif",
-      "/images/rooms/fruit2.avif",
-      "/images/rooms/fruit3.avif",
-      "/images/rooms/fruit4.avif"
+      "/images/rooms/Screenshot 2025-12-25 130034.png",
+      "/images/rooms/Screenshot 2025-12-25 130043.png",
+      "/images/rooms/Screenshot 2025-12-25 130256.png",
+      "/images/rooms/Screenshot 2025-12-25 130307.png"
     ],
   },
 ];
