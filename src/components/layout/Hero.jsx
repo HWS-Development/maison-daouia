@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       className="relative flex  md:h-screen"
       style={{
-        backgroundImage: "url('/images/hero-pool.webp')",
+        backgroundImage: "url('/images/Screenshot 2026-01-20 124710.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "86vh"
